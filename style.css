@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(water.png);
+    background-size: cover;
+ }
+.main {
+    position: relative;
+    width: 276px;
+    height: 402px;
+    margin-top: 20px;  
+    transform: rotate(10deg) skew(-1deg);
+}
+.main img {
+    position: absolute;
+}
+.sha {
+    opacity: 0;
+}
+.sha:hover {
+    opacity: 1;
+}
+.ee {
+    position: relative;
+    margin-top: 150px;
+}
